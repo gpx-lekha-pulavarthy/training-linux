@@ -17,6 +17,6 @@ if [ -d "$SOURCE" ]; then
     tar -czf "$BackUp_File" -C "$SOURCE" .
     echo "Backup created at: $BackUp_File"
 else
-    echo "Error: Source directory $SOURCE does not exist."
+    echo "Error: Source directory : $SOURCE does not exist."
     exit 1
 fi
