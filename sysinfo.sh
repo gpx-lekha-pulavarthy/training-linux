@@ -28,3 +28,5 @@ echo "Available Memory: ${mem_available_mb} GB"
 
 
 echo "Used memory : $(free -h | grep '^Mem:' | awk '{print $3}') GB"
+
+echo "-------------------"
