@@ -1,7 +1,7 @@
 #!/bin/bash
 # Description: Count the number of files with a specific extension in the current directory.
 ext=$1
-dir=$2
+dir=${2:-.}
 
 wild_card_path="$dir/*.$ext"
 COUNT=0;
